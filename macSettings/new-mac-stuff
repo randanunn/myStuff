@@ -1,0 +1,19 @@
+#turn off that stupid accent press and hold thing
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+# use "read" to read your current settings
+defaults read -g com.apple.mouse.scaling
+defaults read -g InitialKeyRepeat
+defaults read -g KeyRepeat
+
+# use "write" to change the settings, this are the values I use
+defaults write -g com.apple.mouse.scaling -float 3
+defaults write -g InitialKeyRepeat -int 13
+defaults write -g KeyRepeat -float 1.9
+
+#show all files
+defaults write com.apple.finder AppleShowAllFiles YES
+# kill all finder windows for it to take affect
+killall Finder
+
+
