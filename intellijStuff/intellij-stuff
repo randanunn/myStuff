@@ -8,3 +8,19 @@ Preferences - Editor - General - Code Folding - Java - One line methods
 Preferences - Editor - Language Injections - new XML Tag Injection - put “sql” into the “Local Name” field and check “Sub-tags”
         Name: whatever, Language ID: Postgres, Local Name: sql  check the sub-tags option
 
+# my custom keymaps:
+Build Module: cmd+g
+Main Menu - Run - Debug: cmd+shift+d
+Tool Windows - Database: cmd+3
+Reopen Closed Tab: cmd+shift+T
+Move to opposite group: opt+0
+Split Vertically: opt+.
+Select in Project View: cmd+2
+
+# plugins I use
+CamelCase
+Rainbow Brackets
+Vue.js
+Multirun
+JS GraphQL
+Lombok
