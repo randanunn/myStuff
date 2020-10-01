@@ -1,0 +1,10 @@
+# make intellij stop putting underscores in integers
+Preferences - Editor - General - Code Folding - SQL - Put underscores inside numeric literals
+
+# stop auto collapsing single line methods
+Preferences - Editor - General - Code Folding - Java - One line methods
+
+# make xml files do the sql formatting coolness that humes showed me
+Preferences - Editor - Language Injections - new XML Tag Injection - put “sql” into the “Local Name” field and check “Sub-tags”
+        Name: whatever, Language ID: Postgres, Local Name: sql  check the sub-tags option
+
